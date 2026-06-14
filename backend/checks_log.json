@@ -1,1 +1,61 @@
-[]
+{
+  "total_checks": 3,
+  "unique_passwords": [
+    "P@55word",
+    "P@55wordjsdheheh",
+    "P@55wordjsdhehehheheheh"
+  ],
+  "history": [
+    {
+      "timestamp": "2026-06-14T20:51:05.694355+00:00",
+      "username": "Matthew",
+      "password": "P@55word",
+      "strength": 43.7,
+      "label": "Weak",
+      "flags": {
+        "common_password": false,
+        "username_match": false,
+        "numeric_only": false,
+        "too_short": false,
+        "has_upper": true,
+        "has_lower": true,
+        "has_digit": true,
+        "has_symbol": true
+      }
+    },
+    {
+      "timestamp": "2026-06-14T20:51:17.039896+00:00",
+      "username": "Matthew",
+      "password": "P@55wordjsdheheh",
+      "strength": 87.39,
+      "label": "Strong",
+      "flags": {
+        "common_password": false,
+        "username_match": false,
+        "numeric_only": false,
+        "too_short": false,
+        "has_upper": true,
+        "has_lower": true,
+        "has_digit": true,
+        "has_symbol": true
+      }
+    },
+    {
+      "timestamp": "2026-06-14T20:51:19.845086+00:00",
+      "username": "Matthew",
+      "password": "P@55wordjsdhehehheheheh",
+      "strength": 100.0,
+      "label": "Strong",
+      "flags": {
+        "common_password": false,
+        "username_match": false,
+        "numeric_only": false,
+        "too_short": false,
+        "has_upper": true,
+        "has_lower": true,
+        "has_digit": true,
+        "has_symbol": true
+      }
+    }
+  ]
+}
